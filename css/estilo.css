@@ -1,0 +1,107 @@
+/*css do menu*/
+nav {
+    background-color: gray;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/*css do cabeçalho da pagina com o menu e imagem alinhados*/
+header {
+    display: flex;
+    align-items: center;  
+    background-color: gray;
+    padding: 5px;
+}
+header img {
+    display: flex;
+    background-color: gray;
+    width: 100px;
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+
+/*css da tabela*/
+table, th, td {
+    max-width: 35%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+/*css das fotos da guitarras com descrições do lado da imagem*/
+.guitarra-texto {
+    display: flex;             /* Faz imagem e texto ficarem lado a lado */
+    align-items: center;       /* Declara alinhanento */
+    gap: 20px;                 /* Espaço entre imagem e texto */
+    margin-bottom: 20px;       /* Espaço entre os blocos */
+  }
+.guitarra-texto img {
+    width: 15%;
+}
+.guitarra-texto p {
+    flex: 1;          /*Texto ocupa o espaço restante do bloco da div*/         
+  }
+
+
+/*css para a imagem das palhetas*/
+.palheta {
+    text-align: center;
+}
+.palheta img {
+    max-width: 45%;
+}
+.palheta figcaption{
+    font-size: small;
+}
+
+/*css para as imagens e os titulos dos acordes*/
+.acordes {
+    display: flex;
+}
+.acordes_imagemTexto {
+    flex-direction: column;
+    text-align: center;
+}
+
+.escalas img {
+    max-width: 80%;
+}
+
+/*css do footer*/
+footer {
+    background-color: gray; /* fundo escuro */
+    color: black;           /* texto claro */
+    font-weight: bold;
+    text-align: center;
+
+  }
+  
+  footer ul {
+    list-style: none;       /* remove as bolinhas */
+  }
+  
+  footer li {
+    margin: 5px 0;          /* espaçamento entre os itens */
+  }
+  
